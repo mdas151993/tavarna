@@ -1,0 +1,320 @@
+/* =============== */
+/* BESIC SET UP */
+/* =============== */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+	  font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+	background-color: rgba(203, 194, 194, 0.64);
+	padding: 5rem 0;
+}
+
+/* =============== */
+/* REUSABLE COMPONENT */
+/* =============== */
+.row{
+	max-width: 114rem;
+	margin: 0 auto;
+}
+h2{
+	font-size: 3rem;
+}
+
+/* =============== */
+/* HEADER SECTION */
+/* =============== */
+.cover{
+	background: url(img/t7_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:85vh;
+	position: relative;
+}
+.m{
+	float: left;
+	padding: 3rem 2rem;
+	font-size: 3rem;
+}
+.m a{
+	color: #fff;
+	text-decoration: none;
+}
+.n{
+	float: right;
+	padding: 3rem 2rem;
+	font-size: 3rem;
+}
+.n a{
+	color: #fff;
+	text-decoration: none;
+}
+.logo{
+	height: 25rem;
+	width: auto;
+	top: 70%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+
+/* =============== */
+/* FOOD SECTION */
+/* =============== */
+.fr{
+	background-color: #fff;
+}
+.food-section .left-side{
+	float: left;
+	width: 50%;
+}
+.food-section .left-side img{
+	height: 80rem;
+	width: 100%;
+}
+.food-section .right-side{
+	float: left;
+	width: 50%;
+}
+.food-section .description{
+	float: right;
+	margin: 2rem 5rem;
+}
+.food-section h2{
+	font-size: 4rem;
+	margin-top: 15rem;
+	margin-bottom: 3rem;
+}
+.food-section p{
+	color: rgba(0, 0, 0, 0.72);
+	font-size: 3rem;
+	margin-bottom: 5rem;
+}
+.food-section .btn:link,
+.food-section .btn:visited{
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.5rem 1rem;
+	background-color: rgba(255, 78, 0, 0.9);
+	border-radius: 0.5rem;
+}
+/* =============== */
+/* DRINK SECTION */
+/* =============== */
+.drink-section .left-side{
+	float: left;
+}
+.drink-section .description{
+	float: left;
+	margin: 2rem 5rem;
+	width: 31%;
+}
+.drink-section h2{
+	font-size: 4rem;
+	margin-top: 15rem;
+	margin-bottom: 3rem;
+}
+.drink-section p{
+	color: rgba(0, 0, 0, 0.72);
+	font-size: 3rem;
+	margin-bottom: 5rem;
+}
+.drink-section .btn:link,
+.drink-section .btn:visited{
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.5rem 1rem;
+	background-color: rgba(255, 78, 0, 0.9);
+	border-radius: 0.5rem;
+}
+.drink-section .right-side{
+	float: right;
+	width: 50%
+}
+.drink-section .right-side img{
+	height: 80rem;
+	width: 100%;
+}
+/* =============== */
+/* BED SECTION */
+/* =============== */
+.bed-section .left-side{
+	float: left;
+	width: 50%;
+}
+.bed-section .left-side img{
+	height: 80rem;
+	width: 100%;
+}
+.bed-section .right-side{
+	float: left;
+	width: 50%;
+}
+.bed-section .description{
+	float: right;
+	margin: 2rem 5rem;
+}
+.bed-section h2{
+	font-size: 4rem;
+	margin-top: 15rem;
+	margin-bottom: 3rem;
+}
+.bed-section p{
+	color: rgba(0, 0, 0, 0.72);
+	font-size: 3rem;
+	margin-bottom: 5rem;
+}
+.bed-section .btn:link,
+.bed-section .btn:visited{
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.5rem 1rem;
+	background-color: rgba(255, 78, 0, 0.9);
+	border-radius: 0.5rem;
+}
+/* =============== */
+/* BOOK SECTION */
+/* =============== */
+.back{
+	text-align: center;
+}
+.back h2{
+	font-size: 4rem;
+	margin-top: 8rem;
+	text-align: center;
+}
+.back p{
+	text-align: center;
+	font-size: 3rem;
+	margin: 6rem 2rem;
+	color: rgba(0, 0, 0, 0.72);
+}
+
+.book-section img{
+	width: 100%;
+	margin-top: 8rem;
+}
+.book-section .d{
+	text-align: left;
+	margin-top: 6rem;
+	margin-bottom: 8rem;
+}
+.book-section .d h2{
+	margin-left: 8rem;
+	font-size: 4rem;
+	margin-top: 2rem;
+}
+.book-section .d p{
+	margin:4rem 0;
+	color: rgba(0, 0, 0, 0.72);
+	font-size: 3rem;
+	font-weight:100;
+	padding:2rem 8rem;
+}
+
+.book-section .d .btn:link,
+.book-section .d .btn:visited,
+.book-section .d .btn{
+	margin-left: 8rem;
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1.5rem 1rem;
+	background-color: rgba(255, 78, 0, 0.9);
+	border-radius: 0.5rem;
+}
+
+/* =============== */
+/* OFFER SECTION */
+/* =============== */
+.offer-section{
+	padding: 2rem 8rem;
+}
+.offer-section h2{
+	margin-left:0;
+	font-size: 4rem;
+	padding: 4rem 0;
+	text-align: center;
+}
+.offer-section .col{
+	width: 47%;
+	padding: 0 2rem;
+}
+.offer-section img{
+	height: 50rem;
+	width: 100%;
+	margin-bottom: 8rem;
+}
+.offer-section h3{
+	font-size: 3rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+.offer-section p{
+	font-size: 2rem;
+	margin-bottom: 5rem;
+}
+.plate img{
+	width: 100%;
+	padding: 10rem 0;
+}
+/* =============== */
+/* CONTACT SECTION */
+/* =============== */
+.contact-section .left-side{
+	float: left;
+	width: 45%;
+	margin-left: 8rem;
+}
+.contact-section h2{
+	font-size: 5rem;
+	padding: 5rem 0;
+}
+.contact-section p{
+	color: rgba(0, 0, 0, 0.72);
+	font-size: 3rem;
+	font-weight:100;
+	padding:2rem 0;
+	margin-bottom: 5rem;
+}
+.contact-section ul li{
+	display: inline-block;
+	padding: 3%;
+}
+.contact-section ul li img{
+	height: 6rem;
+	width: 5rem;
+}
+
+.contact-section .right-side{
+	float: left;
+}
+.contact-section .right-side img{
+	height: 5rem;
+	width: 4rem;
+}
+.l::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: rgba(221, 201, 201, 0.50);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5rem;
+}

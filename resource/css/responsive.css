@@ -1,0 +1,98 @@
+
+@media only screen and (max-width: 1024px){
+	.offer-section{
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 980px){
+	body{
+		padding: 0;
+	}
+	.cover{
+		height: 100vh;
+	}
+	.logo{
+	
+	top: 60%;
+	left: 50%;
+	
+}
+	.drink-section .description{
+	width: 35%;
+}
+	.contact-section .left-side{
+		width: 45%;
+		float: left;
+		margin: 4%;
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+	body{
+		padding: 0;
+		background: #fff;
+	}
+	html{
+		font-size: 52.5%;
+	}
+	.book-section .d p{
+		font-weight: 600;
+	}
+	.contact-section p{
+		font-weight: 600;
+	}
+
+	.drink-section .description{
+	width: 35%;
+}
+}
+@media only screen and (max-width: 480px){
+	body{
+		padding: 0;
+	}
+	html{
+		font-size: 28.5%;
+	}
+	.cover{
+		height: 100vh;
+	}
+	.logo{
+		width: 45rem;
+	}
+	
+	.food-section .right-side h2{
+		margin-top: 5rem;
+	}
+	.drink-section .description{
+	width: 32%;
+	margin: 3%;
+}
+	.drink-section h2{
+		margin-top: 5rem;
+	}
+	.bed-section .right-side h2{
+		margin-top: 5rem;
+	}
+	.offer-section{
+		padding: 2rem 3rem;
+	}
+	.offer-section .col{
+		width: 100%;
+	}
+	.contact-section .left-side{
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+	.contact-section .right-side{
+	float: none;
+	text-align: center;
+}
+	.offer-section .col{
+		padding: 0;
+	}
+	.book-section .d h2{
+		margin-left: 8rem;
+	}
+}
